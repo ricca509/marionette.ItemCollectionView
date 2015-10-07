@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "description": "An ItemView that can render a CollectionView given a collection existing in its properties",
   "main": "ItemCollectionView.js",
+  "repository": "https://github.com/ricca509/marionette.ItemCollectionView",
   "scripts": {
     "test": "npm test"
   },
   "keywords": [
     "marionette"
   ],
+  "dependencies": {
+    "backbone.marionette": ">=2.0.0",
+    "underscore": ">=1.4.4"
+  },
   "author": "Riccardo Coppola <ricca509@gmail.com>",
   "license": "ISC"
 }
